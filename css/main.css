@@ -56,8 +56,11 @@ li{display: inline-block;}
 
     display:flex;
     display: -webkit-flex;
+-webkit-justify-content: space-around;
     justify-content: space-around;
+-webkit-justify-content: space-around;
     flex-flow:row wrap;
+-webkit-flex-flow:row wrap;
     margin: 20px 0;
 }
 #sign li{
@@ -88,6 +91,7 @@ li{display: inline-block;}
     display:flex;
     display: -webkit-flex;
     justify-content:space-around;
+-webkit-justify-content: space-around;
     background-color: #DEDEDE;
 }
 .fenlan{
@@ -115,18 +119,22 @@ li{display: inline-block;}
     display: flex;
     display: -webkit-flex;
     justify-content: flex-start;
+-webkit-justify-content: flex-start;
     margin:35px;
 }
 .module section img{
      border:2px solid #FFB535;
      flex:0 0 240px;
+-webkit-flex:0 0 240px;
 
  }
 .module .text-container{
     display: flex;
     display: -webkit-flex;
     justify-content: space-around;
+-webkit-justify-content: space-around;
     flex-wrap: wrap;
+-webkit-flex-wrap: wrap;
 
 }
 .module .text{
@@ -144,6 +152,7 @@ li{display: inline-block;}
     display:flex;
     display: -webkit-flex;
     justify-content: flex-start;
+-webkit-justify-content: flex-start;
     padding:20px 30px;
     background-color: white;
 }
@@ -162,13 +171,16 @@ article h4{
     display:flex;
     display: -webkit-flex;
     justify-content: space-around;
+-webkit-justify-content: space-around;
     padding:20px 30px;
     background-color: white;
     flex-direction: column;
+-webkit-flex-direction: column;
     position: relative;
 }
 article h2{
     flex:1;
+-webkit-flex:1;
     color:#2E2E2E;
     font-size:44px;
 }
