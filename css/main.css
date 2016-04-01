@@ -100,6 +100,9 @@ li{display: inline-block;}
     width:33.33333%;
     background-color: white;
 }
+.fenlan img{
+    width:100%;
+}
 .module{
 
     padding:0 30px 20px 30px;
@@ -132,14 +135,20 @@ li{display: inline-block;}
     display: flex;
     display: -webkit-flex;
     justify-content: space-around;
--webkit-justify-content: space-around;
-    flex-wrap: wrap;
--webkit-flex-wrap: wrap;
+    -webkit-justify-content: space-around;
 
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+
+    flex-direction: column;
+    -webkit-flex-direction: column;
+
+    width:50%;
+    margin-left: 1rem;
 }
 .module .text{
-    height:100px;
-    width:320px;
+    height:45%;
+    width:100%;
     color:#2E2E2E;
     margin:0 10px;
     float:left;
@@ -156,10 +165,20 @@ li{display: inline-block;}
     padding:20px 30px;
     background-color: white;
 }
-.art-txt {
+.art-txt{
     padding:0 15px;
     position: relative;
+}
+.art-txt-2 {
+    padding:0 15px;
+    position: relative;
+    display:flex ;
+    flex-direction: row;
+    justify-content: space-around;
 
+    display:-webkit-flex ;
+    -webkit-flex-direction: row;
+    -webkit-justify-content: space-around;
 }
 article h4{
     position: absolute;
@@ -178,7 +197,11 @@ article h4{
 -webkit-flex-direction: column;
     position: relative;
 }
-article h2{
+.art h2{
+    color:#2E2E2E;
+    font-size:44px;
+}
+#art-2-h2{
     flex:1;
 -webkit-flex:1;
     color:#2E2E2E;
